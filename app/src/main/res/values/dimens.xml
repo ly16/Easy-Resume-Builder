@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="spacing_xsmall">8dp</dimen>
+    <dimen name="spacing_small">12dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <dimen name="user_picture_size">60dp</dimen>
+    <dimen name="user_picture_jumbo_height">180dp</dimen>
+
+    <dimen name="icon_button_size">24dp</dimen>
+
+    <dimen name="caption_text_size">25sp</dimen>
+
+</resources>

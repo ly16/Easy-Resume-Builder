@@ -27,7 +27,7 @@ public class PermissionUtils {
 
     public static void requestReadExternalStoragePermission(@NonNull Activity activity) {
         requestPermissions(activity,
-                new String[] {Manifest.permission.READ_EXTERNAL_STORAGE},
-                REQ_CODE_WRITE_EXTERNAL_STORAGE);
+                           new String[] {Manifest.permission.READ_EXTERNAL_STORAGE},
+                           REQ_CODE_WRITE_EXTERNAL_STORAGE);
     }
 }

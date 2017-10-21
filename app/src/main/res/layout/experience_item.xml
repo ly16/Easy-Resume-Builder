@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/experience_company"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Linkedin (Mar ~ Aug 2015)" />
+
+        <ImageButton
+            android:id="@+id/edit_experience_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18dp"
+            android:alpha="0.7"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/edit_experience"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/experience_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        tools:text="- Completed xxx using xxx\n- Algorithm\n- Network" />
+
+</LinearLayout>

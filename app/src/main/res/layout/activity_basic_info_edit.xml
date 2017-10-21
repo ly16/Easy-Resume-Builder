@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/basic_info_edit_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_picture_jumbo_height"
+        android:background="?attr/selectableItemBackground">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/user_picture_chooser_background"/>
+
+        <ImageView
+            android:id="@+id/basic_info_edit_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_picture_jumbo_height"
+            android:src="@drawable/user_ghost"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/choose_user_picture"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:layout_marginRight="@dimen/spacing_small"
+            android:src="@drawable/ic_photo_camera_white_24dp"
+            android:contentDescription="@null"/>
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/basic_info_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_marginRight="@dimen/spacing_medium"
+        android:hint="@string/basic_info_edit_name_hint"/>
+
+    <EditText
+        android:id="@+id/basic_info_edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_marginRight="@dimen/spacing_medium"
+        android:inputType="textEmailAddress"
+        android:hint="@string/basic_info_edit_email_hint"/>
+
+</LinearLayout>

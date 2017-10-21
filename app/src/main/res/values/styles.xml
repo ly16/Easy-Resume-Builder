@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.TextView" />
+
+    <style name="AppTheme.TextView.DeleteButton">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
