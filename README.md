@@ -1,5 +1,5 @@
 ## Easy Resume Builder
-Easy Resume Builder is an Android App written in JAVA. This App is for resume edition, including adding different kinds of experience (education, experience, projects) and multiple items under each section. 
+Easy Resume Builder is an Android App written in Java. This App is for resume edition, including adding different kinds of experience (education, experience, projects) and multiple items under each section. 
 
 ![main page](https://github.com/ly16/Easy-Resume-Builder/blob/master/screenshot/main_page.png)
 ============
@@ -8,5 +8,8 @@ Easy Resume Builder is an Android App written in JAVA. This App is for resume ed
 
 ![main empty](https://github.com/ly16/Easy-Resume-Builder/blob/master/screenshot/main_empty.png)
 
-- Menu page
-![menu]()
+**Menu Page**
+
+- Basic Information
+
+![basic info](https://github.com/ly16/Easy-Resume-Builder/blob/master/screenshot/basicInfo.png)
